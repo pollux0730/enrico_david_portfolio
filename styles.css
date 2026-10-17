@@ -372,3 +372,31 @@ a.contact-card:hover .contact-info > span {
     transition: none;
   }
 }
+.pf-btn-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 12px 18px;
+  border: 1px solid #e6383d;
+  border-radius: 999px;
+
+  background: #e6383d;
+  color: #ffffff;
+
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+
+  transition: background 0.2s ease,
+              transform 0.2s ease;
+}
+
+.pf-btn-download:hover {
+  background: #ff484d;
+  border-color: #ff484d;
+  transform: translateY(-2px);
+}
